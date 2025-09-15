@@ -1,0 +1,31 @@
+body {
+    margin: 0;
+    width:100vw ;
+    height: 100vh;
+    background: #fafafa;
+}
+
+.app {
+    position: relative;
+    background: url('imagecement.jpg');
+    box-sizing: border-box;
+    width: 100vw;
+    height: 100vh;
+    
+}
+.image {
+    position: absolute !important;
+    position: fixed;
+    background-attachment: fixed; 
+    top:0;
+    left:0;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    width: 100px;
+    height: 100px;
+}
+
+#createButton {
+padding: 10px;
+}
+
