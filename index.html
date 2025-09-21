@@ -1,18 +1,24 @@
-<html>
+<!DOCTYPE html>
+<html lang="ru">
     <head>
-        <link rel= "stylesheet" href="style.css">
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Модульный Редактор Картинок</title>
+        <link rel="stylesheet" href="style.css">
         <script src="https://unpkg.com/interactjs/dist/interact.min.js"></script>
         <script src="dom-to-image.js"></script>
         <script src="FileSaver.js"></script>
-        
+                                                    
     </head>
     <body>
-        
         <div class="app" id='app'>
-            <input id=fileLoader type=file accept="image/x-png,image/gif,image/jpeg">
+            <input id="fileLoader" type="file" accept="image/x-png,image/gif,image/jpeg">
             <img src='fileadd.png' id='createButton'>
+            <div id="mainPhotoDisplay">
+                <div id="darkOverlay"></div> 
+               
+            </div>
         </div>
         <script src='./script.js'></script>
-        
     </body>
 </html>
