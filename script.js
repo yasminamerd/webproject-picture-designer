@@ -1,3 +1,7 @@
+import "./main.css"
+import interact from 'interactjs'; 
+import './dom-to-image.js'; 
+
 app = document.querySelector('#app')
 createButton = document.querySelector('#createButton')
 fileLoader = document.querySelector('#fileLoader')
